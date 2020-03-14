@@ -9,6 +9,7 @@ $('document').ready(function(){
             '<br>'+
             '<label for="pwd">Password:</label>'+
             '<input type="password" id="pwd" name="pwd">'+
+            '<button type="submit" class="signup">Sign Up</button>'+
             '</form>'+
             '<a href = "#login-form" class = "float-right btn btn-outline-primary id" rel="modal:open"> Sign up </a>' +
             '<h4 class = "card-title mb-4 mt-1" > Sign in </h4>'+
