@@ -11,6 +11,7 @@ $('document').ready(function(){
             '<input type="password" id="pwd" name="pwd">'+
             '<button type="submit" class="signup">Sign Up</button>'+
             '</form>'+
+            '<div class="g-signin2 float-right" data-onsuccess="onSignIn"></div>'+
             '<a href = "#login-form" class = "float-right btn btn-outline-primary id" rel="modal:open"> Sign up </a>' +
             '<h4 class = "card-title mb-4 mt-1" > Sign in </h4>'+
              '<form>'+
@@ -36,3 +37,12 @@ $('document').ready(function(){
 });
 
 // this comment is for testing
+
+// Google Script for sign in button
+function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  }
