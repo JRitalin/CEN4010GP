@@ -38,7 +38,7 @@
 
         <script src="js/home.js"></script>
         <script src="js/messages.js"></script>
-        <script src="js/attendace.js"></script>
+        <script src="js/attendance.js"></script>
         <link rel="stylesheet" type="text/css"  href="css/index.css">
     </head>
     <body>
@@ -53,23 +53,14 @@
                 <a class="navbar-brand" href="">Alert</a>
                 <a class="navbar-brand" href="">Emergency</a>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id = "attendance">Attendance </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="messages">Messages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Classes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Setttings</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Help</a>
-                        </li>
-                    </ul>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#" id="attendanceT">Attendance</a>
+                        <a class="nav-item nav-link" href="#" id="messagesT">Messages</a>
+                        <a class="nav-item nav-link" href="#">Classes</a>
+                        <a class="nav-item nav-link" href="#">Settings</a>
+                        <a class="nav-item nav-link" href="#">Help</a>
+                        <a class="nav-item nav-link" href="#">Logout</a>
+                    </div>
                 </div>
             </nav>
         
@@ -81,10 +72,10 @@
 <!-- This comment is for changes to index for testing -->
         <footer>
             <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Home</a>
-                <a class="navbar-brand" href="#">Cal.</a>
-                <a class="navbar-brand" href="#">Att.</a>
-                <a class="navbar-brand" href="#">Messages</a>
+                <a class="navbar-brand" href="#" >Home</a>
+                <a class="navbar-brand" href="#" >Cal.</a>
+                <a class="navbar-brand" href="#" id="attendanceB">Att.</a>
+                <a class="navbar-brand" href="#" id="messagesB">Messages</a>
             </nav>
         </footer>
     </body>
