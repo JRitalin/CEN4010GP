@@ -1,6 +1,7 @@
 // Adding in the live chat feature when the user clicks on the messsages tab
 $(document).ready(function(){
-    $("#messages").click(function(){
+    $("#messagesT,#messagesB").click(null,function(){
+    $(".navbar-collapse").collapse('hide');
     $('#content').empty();
 
         // $('#content').append('<div class="container" ng-cloak ng-app="chatApp">' +

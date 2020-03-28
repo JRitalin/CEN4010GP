@@ -1,5 +1,4 @@
 $('document').ready(function(){
-   
     $('#content').append(
         '<div class = "card">'+
             '<article class = "card-body">'+
