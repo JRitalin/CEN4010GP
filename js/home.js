@@ -4,9 +4,11 @@ $('document').ready(function(){
             '<article class = "card-body">'+
             '<form id="login-form" class="modal">'+
             '<label for="email">Enter your email:</label>'+ 
+            // input id "email"
             '<input type="email" id="email" name="email">'+
             '<br>'+
             '<label for="pwd">Password:</label>'+
+            // input id "pwd"
             '<input type="password" id="pwd" name="pwd">'+
             '<button type="submit" class="signup">Sign Up</button>'+
             '</form>'+
@@ -45,3 +47,6 @@ function onSignIn(googleUser) {
     console.log('Image URL: ' + profile.getImageUrl());
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
   }
+
+
+  
