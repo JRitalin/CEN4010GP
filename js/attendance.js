@@ -1,4 +1,4 @@
-// Adding in the live chat feature when the user clicks on the messsages tab
+
 $(document).ready(function(){
     $("#attendanceT,#attendanceB").click(function(){
     $(".navbar-collapse").collapse('hide');
@@ -26,3 +26,6 @@ $(document).ready(function(){
             );
     });
   });
+
+
+  
